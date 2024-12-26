@@ -1,0 +1,154 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #4CAF50;
+}
+
+/* Table Styling */
+table ,th{
+    text-align: center;
+    background-color: #45a049;
+}
+
+
+/* Links */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+button, input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Form Styling */
+form {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input[type="text"], form input[type="time"], form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+/* Reset margin dan padding */
+body, h1, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tampilan dasar body */s
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #dfdbe4, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #000000;
+    margin: 0;
+}
+
+/* Kotak form login */
+form {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    color: #333;
+}
+
+/* Judul Halaman */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+/* Tampilan Input Field */
+input[type="text"], input[type="password"] {
+    width: 100%; /* Lebar penuh sesuai kotak form */
+    padding: 10px; /* Padding seragam */
+    margin-bottom: 15px; /* Jarak antar input */
+    border: 1px solid #ddd; /* Garis pembatas */
+    border-radius: 4px; /* Sudut membulat */
+    font-size: 14px; /* Ukuran font */
+    box-sizing: border-box; /* Menghindari overflow */
+}
+
+/* Tambahkan efek fokus untuk input */
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #2575fc; /* Warna garis fokus */
+    outline: none; /* Hilangkan outline default */
+    box-shadow: 0 0 5px rgba(74, 109, 168, 0.5); /* Efek glow */
+}
+
+
+/* Tombol login */
+button {
+    background: #2575fc;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #b3c3da;
+}
+
+/* Pesan Error */
+p {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
